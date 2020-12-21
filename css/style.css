@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'rubik';
+    src: url('font/Rubik-Light.ttf');  
+}
+@font-face {
+    font-family: 'spartan';
+    src: url('font/LeagueSpartan-Bold.otf');  
+}
+.header{
+    background-color: white;
+    padding: 20px 20px 20px 10px;
+    width: 1300px;
+    height: 40px;
+    border-radius: 80px;
+    font-family: "rubik";
+    position: fixed;
+}
+
+.logo{
+    padding-left: 21px;
+}
+.links{
+    float: right;   
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.link{
+    color: black;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.content{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 15px;
+    background-image: url("img/wengang-zhai-wMriefRCoiE-unsplash.jpg");
+    text-align: center;
+    image-rendering: auto;
+    font-family: "rubik";
+    font-weight: bold;
+}
+.content img{
+    width: 210px;
+    height: 210px;
+}
+.content h3{
+    font-size: 18px;
+}
+.home{
+    margin-bottom: 50px;
+    text-align: auto;
+
+}
+.About{
+    font-family: "rubik";
+    font-size: 17px;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.About h2{
+    font-family: "spartan";
+}
+.About h3{
+    font-family: "rubik";
+    text-align: center;
+    word-spacing: 10px;
+}
+.project{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "rubik";
+    position: center;
+    background-color: darkgray;
+    padding-bottom: 80px;
+    padding-top: 10px;
+    background-image: url(img/spikes/spikes.png);
+}
+.project h2{
+    text-align: center;
+    font-family: "spartan";
+}
+
+.list-project{
+    width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-project img{
+    height: 180px;
+    transition: all .5s ease;
+	-webkit-transition: all .5s background ease; /* untuk Chrome dan Safari */
+	-moz-transition: all .5s background ease; /* untuk firefox */
+	-ms-transition: all .5s background ease; /* untuk ie9 ke atas */
+	-o-transition: all .5s background ease; /* untuk opera */
+	transition: all .5s background ease; /* fallback ketika semua browser sudah mendukungnya */;
+
+}
+.home{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: center;
+}
+.home img{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: all .3s ease;
+    
+}
+
+.home:hover img{
+    border: 5px solid black;
+    box-shadow: 0 0 0 rgba(0, 0, 0, .5);
+    z-index: 1000;
+    transform: scale(1.3);
+    -webkit-transform: 1.3; /* untuk Chrome dan Safari */
+	-moz-transform: 1.3; /* untuk firefox */
+	-ms-transform: 1.3; /* untuk ie9 ke atas */
+	-o-transform: 1.3; /* untuk opera */
+	transform-delay: 1.3; /* fallback ketika semua browser sudah mendukungnya */;
+    filter: scale(100%);
+    opacity: 100px
+}
+.home:hover p{
+    opacity: 1px;
+}
+.content h1{
+    font-family: "spartan";
+}
+.clear{
+    clear: both;
+}
+.FAQ{
+    font-family: "spartan";
+    font-size: 18px;
+    background-color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.FAQ img{
+    height: 1000px;
+    width: 1320px;
+}
+.photo{
+    font-family: "rubik";
+    background-image: url(img/notebook/notebook.png);
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+}
+.photo h2{
+    font-family: "spartan";
+    padding-bottom: 21px;
+    padding-top: 0px;
+    text-align: center;
+}
+.picture img{
+    width: max-content;
+    display: inline;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 150px;
+    padding-left: 106px;
+    padding-top: 20px;
+}
+.text h3{
+    width: max-content;
+    display: inline;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-right: 20px;
+    padding-left: 76px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+
+
